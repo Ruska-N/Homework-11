@@ -1,0 +1,90 @@
+
+body {
+    padding-bottom: 71px;
+    padding-top: 50px;
+}
+.container {
+    max-width: 1179px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 20px;
+}
+.left-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 86px;
+}
+.left-1 {
+    background-image: url(../images/brown.jpg);
+    width: 779px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+.text-position {
+    position: absolute;
+    bottom: 0;
+    max-width: 707px;
+    width: 90%;
+    margin-left: 36px;   
+}
+.text-position h2 {
+    font-family: 'Kanit';
+    font-size: 30px;
+    line-height: 44.85px;
+}
+.text-position p {
+    font-family: 'Kanit-p';
+    font-size: 16px;
+    line-height: 23.92px;
+}
+.left-2 {
+    background-image: url(../images/green.jpg);
+}
+
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+.right-1 {
+    border: 1px solid;
+}
+.time {
+    display: flex;
+    column-gap: 11px;
+}
+.right-1-text {
+    max-width: 339px;
+    width: 100%;
+    margin: 0 auto;
+}
+.right-1-text p {
+    font-family: 'Kanit-p';
+    font-size: 16px;
+    line-height: 23.94px;
+    margin-bottom: 13px;
+}
+.time p {
+    font-family: 'Kanit-p';
+    font-size: 16px;
+    line-height: 23.94px;
+}
+.clock {
+    width: 24px;
+    height: 24px;
+}
+.right-1-text h3 {
+    font-family: 'Kanit';
+    font-size: 24px;
+    line-height: 35.88px;
+}
+.block-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 18px;
+}
